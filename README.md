@@ -14,6 +14,7 @@ Kişi uygulamayı açtığında bir steam kullanıcı adı girer. Eğer girilen 
 ## Kullanım
 
 - Yönetici paneline `https://guard-checker-d5d91.web.app/login` adresinden erişin.
+- Guard kodu aratma ekranına `https://guard-checker-d5d91.web.app/` adresinden erişin.
 - Hesapları yönetmek için e-posta ve şifrenizle giriş yapın.
 - Admin Email: admin@admin.com
 - Admin Şifre: 123456
