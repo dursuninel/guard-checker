@@ -5,11 +5,6 @@ import SteamGuard from './components/SteamGuard';
 import Login from './components/Login';
 import AdminPanel from './components/AdminPanel';
 
-// PrimeReact CSS
-import "primereact/resources/themes/lara-light-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-
 function ProtectedRoute({ children }) {
   const [loading, setLoading] = useState(true);
   const [authenticated, setAuthenticated] = useState(false);
