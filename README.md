@@ -1,6 +1,6 @@
 # Steam Guard UI
 
-Steam Guard UI, Firebase kimlik doğrulama ve Firestore veritabanı entegrasyonu ile Steam hesaplarını yönetmek için tasarlanmış bir web uygulamasıdır. Hesapları yönetmek için bir yönetici paneli ve e-posta ve şifre ile kimlik doğrulama sistemi sunar.
+Steam Guard UI, Firestore veritabanı entegrasyonu ile Steam hesaplarını yönetmek için tasarlanmış bir web uygulamasıdır. Hesapları yönetmek için bir yönetici paneli sunar.
 Kişi uygulamayı açtığında bir steam kullanıcı adı girer. Eğer girilen hesabın bilgileri panelden doğru şekilde ayarlanmış ise, program email kutusunun taramasını yapar ve son gönderilmiş steam guard kodunu döndürür.
 
 ## Özellikler
