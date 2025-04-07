@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAeUzI3CMhsqE_55UfJJ7wB5pIWSkm2WoI",
-  authDomain: "guard-checker-d5d91.firebaseapp.com",
-  projectId: "guard-checker-d5d91",
-  storageBucket: "guard-checker-d5d91.firebasestorage.app",
-  messagingSenderId: "64528458070",
-  appId: "1:64528458070:web:aa305476f2072ae493f6f7",
-  measurementId: "G-N5FZFNQD3Q"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
 const app = initializeApp(firebaseConfig);
