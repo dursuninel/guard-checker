@@ -1,0 +1,9 @@
+/* PrimeReact ve PrimeIcons için gerekli stilleri dahil et */
+@import "primereact/resources/themes/lara-light-indigo/theme.css"; /* Tema seçimi */
+@import "primereact/resources/primereact.min.css"; /* PrimeReact CSS */
+@import "primeicons/primeicons.css"; /* PrimeIcons */
+@import "primeflex/primeflex.css"; /* PrimeFlex (isteğe bağlı) */
+
+.p-icon-field.p-icon-field-right {
+    width: 100%;
+  }
